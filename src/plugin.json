@@ -1,0 +1,26 @@
+{
+  "type": "panel",
+  "name": "Gitlab Pipelines Panel",
+  "id": "grafana-gitlab-pipelines-panel",
+  "info": {
+    "description": "Panel to show the status of a gitlab pipeline",
+    "author": {
+      "name": "tkende",
+      "url": ""
+    },
+    "keywords": [],
+    "logos": {
+      "small": "img/logo.svg",
+      "large": "img/logo.svg"
+    },
+    "links": [
+    ],
+    "screenshots": [],
+    "version": "%VERSION%",
+    "updated": "%TODAY%"
+  },
+  "dependencies": {
+    "grafanaVersion": "7.0.x",
+    "plugins": []
+  }
+}
