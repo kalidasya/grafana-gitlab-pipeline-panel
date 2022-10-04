@@ -1,12 +1,12 @@
 {
   "type": "panel",
   "name": "Gitlab Pipelines Panel",
-  "id": "kalidasya-grafana-gitlab-pipelines-panel",
+  "id": "kalidasya-gitlabpipelines-panel",
   "info": {
     "description": "Panel to show the status of a gitlab pipeline",
     "author": {
       "name": "tkende",
-      "url": ""
+      "url": "https://github.com/kalidasya/"
     },
     "keywords": [],
     "logos": {
@@ -15,7 +15,16 @@
     },
     "links": [
     ],
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Dashboard view",
+        "path": "img/dashboard-view.png"
+      },
+      {
+        "name": "Settings page",
+        "path": "img/settings-page.png"
+      },
+    ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
   },

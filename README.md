@@ -11,8 +11,8 @@ I had problems with the existing GitlabCI Pipeline dashboards, they displayed to
 
 ## Screenshots
 
-![Dashboard](https://raw.githubusercontent.com/kalidasya/grafana-gitlab-pipeline-panel//master/docs/dashboard-view.png)
-![Panel settings](https://raw.githubusercontent.com/kalidasya/grafana-gitlab-pipeline-panel//master/docs/settings-page.png)
+![Dashboard](https://raw.githubusercontent.com/kalidasya/grafana-gitlab-pipeline-panel//master/src/img/dashboard-view.png)
+![Panel settings](https://raw.githubusercontent.com/kalidasya/grafana-gitlab-pipeline-panel//master/src/img/settings-page.png)
 
 
 ## Code metrics

@@ -1,5 +1,5 @@
 {
-  "name": "kalidasya-gitlab-pipelines-panel",
+  "name": "kalidasya-gitlabpipelines-panel",
   "version": "1.0.0",
   "description": "Panel to show gitlab pipeline datasource results",
   "scripts": {
