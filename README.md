@@ -19,4 +19,4 @@ I had problems with the existing GitlabCI Pipeline dashboards, they displayed to
 
 [![Code Smells](https://sonarcloud.io/api/project_badges/measure?project=kalidasya_grafana-gitlab-pipeline-panel&metric=code_smells)](https://sonarcloud.io/dashboard?id=kalidasya_grafana-gitlab-pipeline-panel)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kalidasya_grafana-gitlab-pipeline-panel)](https://sonarcloud.io/dashboard?id=kalidasya_grafana-gitlab-pipeline-panel)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=kalidasya_grafana-gitlab-pipeline-panel&metric=alert_status)](https://sonarcloud.io/dashboard?id=kalidasya_grafana-gitlab-pipeline-panel)
