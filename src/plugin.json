@@ -8,7 +8,7 @@
       "name": "tkende",
       "url": "https://github.com/kalidasya/"
     },
-    "keywords": [],
+    "keywords": ["gitlab", "pipelines"],
     "logos": {
       "small": "img/logo.svg",
       "large": "img/logo.svg"
