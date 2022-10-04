@@ -23,7 +23,7 @@
       {
         "name": "Settings page",
         "path": "img/settings-page.png"
-      },
+      }
     ],
     "version": "%VERSION%",
     "updated": "%TODAY%"
