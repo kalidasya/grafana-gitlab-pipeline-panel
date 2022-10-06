@@ -34,7 +34,14 @@ export const GitlabCIPipelineStatusPanel: React.FC<Props> = ({ options, data, wi
   console.log('option', options);
   // const theme = useTheme2();
   const styles = useStyles2(getStyles(options));
-  const f = data.series.map((serie) => serie.fields.map((v) => v.values.toArray())).pop() || [];
+  // first create a list of 2d arrays with the values of each series
+  // then combine them together into a single matrix
+  const f = data.series.map((serie) => serie.fields.map((v) => v.values.toArray()))
+    .reduce((acc, curr) =>
+      curr.map((item, index) => acc[index] = acc[index].concat(item))
+    ) || [];
+  // instead of the [[col1value1, col1value2], [col2value1, col2value2]] create
+  // [[col1value1, col2value1], [col1value2, col2value2]]
   const pipelines: any[] = zip(...f);
 
   return (
